@@ -1,0 +1,489 @@
+:root{
+    --yellow:#F9B700;
+    --margintop: 15px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+main{
+    width: 100%;
+}
+header{
+    background-image: url('../images/dd.jpg');
+    background-position:center center;
+    background-size: 1700px;
+    background-repeat: no-repeat;
+}
+.overlay2{
+    background: rgba(0, 0, 0, 82%);
+    overflow: hidden;
+    height: 100%;
+    padding-bottom: 391px;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+header > .overlay{
+background: rgba(0, 0, 0, 82%);
+overflow: hidden;
+height: 100%;
+padding-bottom: 152px;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    width: 120px;
+}
+.navlink{
+    display: flex;
+}
+nav .navlink a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-decoration: none;
+    padding:0 10px;
+    font-size: 12px;
+    transition: all 0.5s linear;
+}
+nav .navlink a:hover{
+    color: var(--yellow);
+}
+
+/*---------------------------------------------------------*/
+
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--margintop);
+    color: #FFF;
+}
+.sec1 article{
+    width: 45%;
+    margin-top: var(--margintop);
+}
+.sec1 article h2{
+    font-size: 12px;
+}
+.sec1 article h3{
+    font-size: 30px;
+    margin-top: var(--margintop);
+}
+.sec1 article p{
+    font-size: 12px;
+    margin-top: var(--margintop);
+}
+.sec1 article button{
+    width: 120px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    background-color:var(--yellow);
+    border: none;
+    margin-top: var(--margintop);
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.sec1 article button:hover{
+    background-color:#f9b700a6 ;
+}
+aside{
+    border: 1px solid #cccccc3b;
+    display: flex;
+}
+aside.overlay{
+    background: #08192573;
+    height: 100%;
+}
+
+aside form{
+    display: flex;
+    flex-direction: column; 
+    padding: 50px;
+}
+aside form input,
+aside form select{
+    padding: 9px;
+    margin-top: var(--margintop);
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: #746d6dd9; 
+}
+aside #confirm{
+    background-color: var(--yellow);
+    cursor: pointer;
+    color: #FFF;
+    transition: all 0.5s linear;
+}
+aside #confirm:hover{
+    background-color:#f9b700a6 ;
+}
+aside form h2{
+    font-size: 15px;
+    color: #FFF;
+}
+aside form select.cars{
+    width: 300px;
+}
+aside form .event{
+    flex-direction: row;
+    justify-content: space-between;
+}
+aside form .time{
+    flex-direction: column;
+}
+aside form .event,
+aside form .time{
+    display: flex;
+}
+aside form .event .drop-pick select{
+    display: flex;
+    flex-direction: column;
+}
+aside form .time input,
+aside form .event .drop-pick select{
+    width: 145px;
+}
+
+/*--------------------------section 2--------------------------------*/
+
+.sec2 h2 ,
+.sec2 h3{
+    margin-top: var(--margintop);
+    text-align: center;
+}
+.sec2 h3{
+    color: #9f9b9bcc;
+    font-size: 12px;
+}
+.sec2 section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: inherit;
+    height: 500px;
+}
+.sec2 section .row1{
+    display: flex;
+    margin-bottom: 75px;
+    margin-top: 45px;
+}
+
+.sec2 section .row1 article:not(:first-child){
+    margin-left: 75px;
+}
+.sec2 section .row2{
+    display: flex;
+    margin-bottom: 75px;
+}
+.sec2 section .row2 article:not(:first-child){
+    margin-left: 75px;
+}
+.sec2 section article{
+    width: 29%;
+    background-color: #EDEDF7;
+    text-align: justify;
+    padding: 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+}
+.sec2 section article div{
+    display: flex;
+
+}
+.sec2 section article div h4{
+    padding-top:6px;
+    padding-left:7px;
+    font-size: 15px;
+
+}
+.sec2 section article p{
+    margin-top: var(--margintop);
+    color: #9f9b9bcc;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+/*--------------------------section 3--------------------------------*/
+
+.sec3{
+    display: flex;
+    margin-top: 190px;
+    justify-content: space-between;
+}
+
+.sec3 img{
+    width: 40%;
+}
+.sec3 article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 55%;
+}
+.sec3 h2{
+    font-size: 31px;
+}
+.sec3 h2 span{
+    display: block;
+}
+.sec3 h3{
+    font-size: 15px;
+    color: #565454db;
+}
+.sec3 p{
+    font-size: 21px;
+    color: #9f9b9bcc;
+}
+.sec3 button{
+    width: 120px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--yellow);
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.sec3 button:hover{
+    background-color:#f9b700a6 ;
+}
+/*--------------------------section 4-------------------------------*/
+
+.sec4{
+    margin-top: 119px
+}
+.sec4 h2{
+    text-align: center;
+    font-size: 31px;
+}
+.sec4 h5{
+    text-align: center;
+    color: #9f9b9bcc;
+    font-weight: 100;
+    margin-top: var(--margintop);
+}
+.sec4 div{
+    display: flex;
+    margin-top: 90px;
+}
+.sec4 div article h6{
+    font-size: 19px;
+}
+.sec4 div article h6 span{
+    font-size: 24px;
+    color: var(--yellow);
+    margin-left: 362px;
+}
+.sec4 div article h6 span sub{
+    font-size: 16px;
+}
+.sec4 div article p{
+    font-size: 17px;
+    color: #9f9b9bcc;
+    margin-top: var(--margintop);
+}
+.sec4 div article button{
+    background-color: #000;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    margin-top: var(--margintop);
+    opacity:0.7;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.sec4 div article button:hover{
+    
+    background-color: #242222;
+}
+.bol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    cursor: pointer;
+}
+.bol div:hover{
+    background-color: var(--yellow);
+}
+.bol div{
+    background-color: #aba3a3cc;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+.bol .active{
+    background-color: var(--yellow);
+}
+/*--------------------------section 5-------------------------------*/
+.sec5{
+    background-image: url('/images/callaction-bg.jpg');
+    height: 410px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 105px;
+    box-shadow: rgb(28 37 70 / 49%) 0px 0px 0px 2000px inset;
+}
+.sec5 h2{
+    font-size: 30px;
+    margin-top: var(--margintop);
+    color: #FFF;
+}
+.sec5 p{
+    font-size: 15px;
+    color: #FFF;
+    margin-top: var(--margintop);
+}
+.sec5 p span{
+    display: block;
+}
+.sec5 button{
+    width: 222px;
+    color: var(--yellow);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    border:2px solid var(--yellow);
+    background-color: transparent;
+    margin-top: var(--margintop);
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.sec5 button:hover{
+    color: #FFF;
+    border:2px solid #FFF
+}
+
+/*--------------------------section 6-------------------------------*/
+.sec6 h2{
+    text-align: center;
+    font-size: 31px;
+    margin-top: 70px;
+}
+.sec6 p{
+    text-align: center;
+    color: #9f9b9bcc;
+    font-size: 13px;
+    margin-top: var(--margintop);
+}
+.sec6 div{
+    display: flex;
+    margin-top: 135px;
+    justify-content: space-between;
+}
+
+.sec6 article h3{
+    font-size: 12px;
+    font-weight: 100;
+    color: #ffffff80;
+    background-color: #000;
+    width: 90px;
+    padding: 4px;
+    text-align: center;
+    margin-top: var(--margintop);
+}
+.sec6 article h5{
+    margin-top: var(--margintop);
+    font-size: 16px;
+}
+.sec6 article p {
+    text-align: left;
+}
+.sec6 article p span{
+    margin-left: 115px;
+}
+/*--------------------------footer-------------------------------*/
+footer{
+    background-color: #04091D;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-top: 70px;
+}
+.footer section h3{
+    color: #FFF;
+}
+.footer section ul li{
+    font-size: 13px;
+    margin-top: var(--margintop);
+    list-style-type: none;
+}
+.footer section ul li a{
+    text-decoration: none;
+    color: #9f9b9bcc;
+}
+.footer section ul li a:hover{
+    color: #FFF;
+}
+.footer section p{
+    color: #9f9b9bcc;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+footer #end{
+    margin-top: 100px;
+    text-align: center;
+    color: #9f9b9bcc;
+    font-size: 13px;
+    padding-bottom: 70px;
+}
+.footer section .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 105px;
+}
+
+.footer section .social li a{
+    text-decoration: none;
+}
+
+.footer section input{ 
+    margin-top: var(--margintop);
+    border: 0;
+    outline: none;
+    padding: 6px;
+    width: 200px;
+    border-radius: 2px;
+}
+.footer section button{
+    color: #FFF;
+    background-color: var(--yellow);
+    padding: 6px;
+    border-radius: 2px;
+    border: 0;
+    width: 28px;
+    height: 27px;
+    position: relative;
+    right: 32px;
+    cursor: pointer;
+}
+.footer section button:hover{
+    background-color: #f9b700a6;
+}
