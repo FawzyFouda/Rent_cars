@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .container{
     width: 1140px;
@@ -80,8 +81,11 @@ nav .navlink a:hover{
     margin-top: var(--margintop);
 }
 .sec1 article p{
-    font-size: 12px;
+    font-size: 13px;
     margin-top: var(--margintop);
+    line-height: 1.9;
+    color: #ffffff80;
+
 }
 .sec1 article button{
     width: 120px;
