@@ -3,6 +3,7 @@
     --margintop: 15px;
     --subtitle:#9f9b9bcc;
     --prag:#0000008a;
+    --marginBottom:150px;
 }
 *{
     padding: 0;
@@ -21,6 +22,7 @@ header{
     background-image: url('../images/header-bg.jpg');
     background-position:center center;
     background-repeat: no-repeat;
+    margin-bottom: var(--marginBottom);
 }
 .overlay2{
     background: rgba(0, 0, 0, 82%);
@@ -162,14 +164,13 @@ aside form .event .drop-pick select{
 }
 
 /*--------------------------section 2--------------------------------*/
-
+.sec2{
+    margin-bottom: var(--marginBottom);
+}
 .sec2 h2 ,
 .sec2 h3{
     margin-top: var(--margintop);
     text-align: center;
-}
-.sec2 h2{
-    margin-top: 150px;
 }
 .sec2 h3{
     color: #9f9b9bcc;
@@ -227,8 +228,8 @@ aside form .event .drop-pick select{
 
 .sec3{
     display: flex;
-    margin-top: 190px;
     justify-content: space-between;
+    margin-bottom: var(--marginBottom);
 }
 
 .sec3 img{
@@ -246,7 +247,7 @@ aside form .event .drop-pick select{
     display: block;
 }
 .sec3 h3{
-    font-size: 15px;
+    font-size: 12px;
     color: var(--subtitle);
     margin-top: var(--margintop);
 }
@@ -274,36 +275,43 @@ aside form .event .drop-pick select{
 /*--------------------------section 4-------------------------------*/
 
 .sec4{
-    margin-top: 119px
+    margin-bottom: var(--marginBottom);
 }
 .sec4 h2{
     text-align: center;
     font-size: 31px;
-}
-.sec4 h5{
-    text-align: center;
-    color: #9f9b9bcc;
-    font-weight: 100;
     margin-top: var(--margintop);
 }
-.sec4 div{
+.sec4 h3{
+    text-align: center;
+    color: var(--subtitle);
+    font-size: 12px;
+    margin-top: var(--margintop);
+}
+.sec4 .models{
     display: flex;
     margin-top: 90px;
+    justify-content: space-between;
+}
+.sec4 .models article{
+    width: 48%;
 }
 .sec4 div article h6{
     font-size: 19px;
+    display: flex;
+    justify-content: space-between;
 }
 .sec4 div article h6 span{
     font-size: 24px;
     color: var(--yellow);
-    margin-left: 362px;
+    
 }
 .sec4 div article h6 span sub{
     font-size: 16px;
 }
 .sec4 div article p{
     font-size: 17px;
-    color: #9f9b9bcc;
+    color: var(--prag);
     margin-top: var(--margintop);
 }
 .sec4 div article button{
@@ -352,7 +360,7 @@ aside form .event .drop-pick select{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 105px;
+margin-bottom: var(--marginBottom);
     box-shadow: rgb(28 37 70 / 49%) 0px 0px 0px 2000px inset;
 }
 .sec5 h2{
@@ -386,10 +394,12 @@ aside form .event .drop-pick select{
 }
 
 /*--------------------------section 6-------------------------------*/
+.sec6{
+    margin-bottom: var(--marginBottom);
+}
 .sec6 h2{
     text-align: center;
     font-size: 31px;
-    margin-top: 70px;
 }
 .sec6 p{
     text-align: center;
@@ -399,8 +409,8 @@ aside form .event .drop-pick select{
 }
 .sec6 div{
     display: flex;
-    margin-top: 135px;
     justify-content: space-between;
+    margin-top: var(--margintop);
 }
 
 .sec6 article h3{
@@ -478,6 +488,7 @@ footer #end{
     outline: none;
     padding: 6px;
     width: 200px;
+    height: 30px;
     border-radius: 2px;
 }
 .footer section button{
@@ -487,7 +498,7 @@ footer #end{
     border-radius: 2px;
     border: 0;
     width: 28px;
-    height: 27px;
+    height: 30px;
     position: relative;
     right: 32px;
     cursor: pointer;
