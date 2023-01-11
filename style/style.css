@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
     width: 1140px;
@@ -16,9 +16,8 @@ main{
     width: 100%;
 }
 header{
-    background-image: url('../images/header-bg.jpg');
+    background-image: url('../images/dd.jpg');
     background-position:center center;
-    background-size: 1700px;
     background-repeat: no-repeat;
 }
 .overlay2{
@@ -42,9 +41,11 @@ nav{
 }
 nav img{
     width: 120px;
+    padding: 20px 0;
 }
 .navlink{
     display: flex;
+    padding: 20px 0;
 }
 nav .navlink a{
     display: flex;
@@ -81,11 +82,8 @@ nav .navlink a:hover{
     margin-top: var(--margintop);
 }
 .sec1 article p{
-    font-size: 13px;
+    font-size: 12px;
     margin-top: var(--margintop);
-    line-height: 1.9;
-    color: #ffffff80;
-
 }
 .sec1 article button{
     width: 120px;
@@ -168,6 +166,9 @@ aside form .event .drop-pick select{
     margin-top: var(--margintop);
     text-align: center;
 }
+.sec2 h2{
+    margin-top: 150px;
+}
 .sec2 h3{
     color: #9f9b9bcc;
     font-size: 12px;
@@ -197,8 +198,7 @@ aside form .event .drop-pick select{
 }
 .sec2 section article{
     width: 29%;
-    background-color: #EDEDF7;
-    text-align: justify;
+    background-color: #e2e2e9;
     padding: 50px 30px;
     display: flex;
     flex-wrap: wrap;
@@ -216,7 +216,7 @@ aside form .event .drop-pick select{
 }
 .sec2 section article p{
     margin-top: var(--margintop);
-    color: #9f9b9bcc;
+    color: #746363;
     font-size: 13px;
     line-height: 1.4;
 }
