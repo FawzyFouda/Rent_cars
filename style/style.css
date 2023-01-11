@@ -1,6 +1,8 @@
 :root{
     --yellow:#F9B700;
     --margintop: 15px;
+    --subtitle:#9f9b9bcc;
+    --prag:#0000008a;
 }
 *{
     padding: 0;
@@ -234,24 +236,25 @@ aside form .event .drop-pick select{
 }
 .sec3 article{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
     width: 55%;
 }
 .sec3 h2{
-    font-size: 31px;
+    font-size: 30px;
 }
 .sec3 h2 span{
     display: block;
 }
 .sec3 h3{
     font-size: 15px;
-    color: #565454db;
+    color: var(--subtitle);
+    margin-top: var(--margintop);
 }
 .sec3 p{
-    font-size: 21px;
-    color: #9f9b9bcc;
+    font-size: 18px;
+    color: var(--prag);
+    line-height: 1.5;
+    margin-top: var(--margintop);
 }
 .sec3 button{
     width: 120px;
@@ -263,6 +266,7 @@ aside form .event .drop-pick select{
     border: none;
     cursor: pointer;
     transition: all 0.5s linear;
+    margin: var(--margintop);
 }
 .sec3 button:hover{
     background-color:#f9b700a6 ;
