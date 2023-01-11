@@ -15,7 +15,7 @@ main{
     width: 100%;
 }
 header{
-    background-image: url('../images/dd.jpg');
+    background-image: url('../images/header-bg.jpg');
     background-position:center center;
     background-size: 1700px;
     background-repeat: no-repeat;
